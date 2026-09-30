@@ -39,9 +39,9 @@ This README focuses on **my contributions**: the two recommendation models, the 
   3. Trained and compared multiple classifiers.
   4. Selected the best-performing model based on validation accuracy.
 - **Best Model:** `RandomForestClassifier`
-- **Result:** **96% accuracy** on the test set.
+- **Result:** **99% accuracy** on the test set.
 
-<!-- Optional: ![Crop Recommendation Confusion Matrix](assets/crop_confusion_matrix.png) -->
+[Crop Recommendation Results](assets/Crop_model_results.png)
 
 ---
 
@@ -55,9 +55,9 @@ This README focuses on **my contributions**: the two recommendation models, the 
   2. Trained and compared multiple classifiers.
   3. Selected the best-performing model based on validation accuracy.
 - **Best Model:** `GradientBoostingClassifier`
-- **Result:** **94% accuracy** on the test set.
+- **Result:** **99% accuracy** on the test set.
 
-<!-- Optional: ![Fertilizer Recommendation Confusion Matrix](assets/fertilizer_confusion_matrix.png) -->
+[Fertilizer Recommendation Confusion Matrix](assets/Fertilizer_model_results.png)
 
 Both models were deployed to production on an **AWS EC2** instance, serving predictions in real time within the AgriVision platform.
 
@@ -71,8 +71,7 @@ Both models were deployed to production on an **AWS EC2** instance, serving pred
 - **Classes:** 7 growth stages across tomato and cotton crops
 - **Result:** **mAP50 ≈ 0.83** on the validation set
 
-<!-- Add your metrics image here, e.g.: -->
-<!-- ![Growth Stage Detection Metrics](assets/growth_stage_metrics.png) -->
+[Growth Stage Detection Metrics](assets/growth_stage_metrics.jpeg)
 
 ---
 
@@ -88,8 +87,7 @@ A 3-model pipeline combining:
 
 These three outputs are combined to give the robot a real-time understanding of what's ahead, how far it is, and where safe terrain is — enabling it to navigate the field autonomously.
 
-<!-- Add your robot image here, e.g.: -->
-<!-- ![AgriVision Field Robot](assets/robot.jpg) -->
+[AgriVision Field Robot](assets/robot.jpeg)
 
 ---
 
